@@ -3,20 +3,20 @@ package ru.kafkademo.ws.productmicroservice.controller;
 import java.util.Date;
 
 public class ErrorMessage {
-    private Date timeestamp;
+    private Date timestamp;
     private String message;
 
-    public ErrorMessage(Date timeestamp, String message) {
-        this.timeestamp = timeestamp;
+    public ErrorMessage(Date timestamp, String message) {
+        this.timestamp = timestamp;
         this.message = message;
     }
 
-    public Date getTimeestamp() {
-        return timeestamp;
+    public Date getTimestamp() {
+        return timestamp;
     }
 
-    public void setTimeestamp(Date timeestamp) {
-        this.timeestamp = timeestamp;
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
     }
 
     public String getMessage() {

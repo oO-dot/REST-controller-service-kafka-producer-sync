@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 public class ProductServiceImpl implements ProductService{
 
     private KafkaTemplate<String, ProductCreatedEvent> kafkaTemplate;
-    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass()); // сюда записываем логи
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     public ProductServiceImpl(KafkaTemplate<String, ProductCreatedEvent> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;

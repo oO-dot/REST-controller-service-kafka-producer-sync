@@ -12,7 +12,6 @@ import ru.kafkademo.ws.productmicroservice.service.ProductService;
 import ru.kafkademo.ws.productmicroservice.service.dto.CreateProductDto;
 
 import java.util.Date;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/product")

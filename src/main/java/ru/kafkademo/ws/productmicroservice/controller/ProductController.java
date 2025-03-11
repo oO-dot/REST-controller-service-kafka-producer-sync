@@ -34,6 +34,7 @@ public class ProductController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(new ErrorMessage(new Date(), e.getMessage()));
         }
 
+
         return ResponseEntity.status(HttpStatus.CREATED).body(productId);
     }
 }

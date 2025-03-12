@@ -4,8 +4,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
+import ru.kafkademo.ws.core.ProductCreatedEvent;
 import ru.kafkademo.ws.productmicroservice.service.dto.CreateProductDto;
-import ru.kafkademo.ws.productmicroservice.service.event.ProductCreatedEvent;
 import org.slf4j.Logger;
 
 import java.util.UUID;
